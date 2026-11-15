@@ -1,6 +1,0 @@
-addendum_id,agreement_id,addendum_date,description,price_change,status
-ADD-001,A-20260920-001,2026-10-05,Add a third database (cold storage annex),1000,approved
-ADD-002,A-20261003-001,2026-10-08,Change weekly report day from Monday to Friday,0,approved
-ADD-003,A-20260920-001,2026-10-12,Add quarterly analysis for the corporate office,450,pending
-ADD-004,A-20261003-001,2026-10-14,Add inventory service for the Highway 5 branch,1000,pending
-ADD-005,A-20260912-001,2026-09-28,Reduce to weekend-only reports,-250,rejected
