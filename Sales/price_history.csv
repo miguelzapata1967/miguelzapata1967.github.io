@@ -1,0 +1,17 @@
+history_id,price_id,action,field_changed,old_value,new_value,changed_on,changed_by,reason
+PH-0001,PRC-001,Insert,all,,Basic | one-time,2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0002,PRC-002,Insert,all,,Report + Full Analysis | one-time,2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0003,PRC-003,Insert,all,,Month to Month | one-time,2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0004,PRC-004,Insert,all,,Year to Year | one-time,2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0005,PRC-005,Insert,all,,Quarterly | one-time,2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0006,PRC-006,Insert,all,,Monthly Services | per month per database,2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0007,PRC-007,Insert,all,,Monthly Services + Pipelines | per month per database,2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0008,PRC-008,Insert,all,,"Forecast | each, one-time",2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0009,PRC-009,Insert,all,,One-month A/B test | per location for the test month,2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0010,PRC-010,Insert,all,,"Workforce analysis, 1 to 100 employees | per analysis",2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0011,PRC-011,Insert,all,,"Workforce analysis, 101 to 200 employees | per analysis",2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0012,PRC-012,Insert,all,,Each additional 100 employees above 200 | per 100 employees,2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0013,PRC-013,Insert,all,,Data Analytics | quote,2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0014,PRC-014,Insert,all,,Business Intelligence & Dashboards | quote,2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0015,PRC-015,Insert,all,,Security & Risk Analytics | quote,2026-10-18 09:00,Miguel Zapata,Initial price list
+PH-0016,PRC-006,Modify,unit_price,1000,1200,2026-10-18 09:01,Miguel Zapata,"Monthly Services price raised from $1,000 to $1,200 (decided Oct 17, 2026)"

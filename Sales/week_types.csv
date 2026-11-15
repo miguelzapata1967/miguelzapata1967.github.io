@@ -1,0 +1,6 @@
+week_type,start_day,end_day,description
+week_1,Monday,Sunday,Monday through Sunday
+week_2,Sunday,Saturday,Sunday through Saturday
+week_end_1,Thursday,Sunday,Thursday through Sunday
+week_end_2,Friday,Sunday,Friday through Sunday
+week_end_3,Saturday,Sunday,Saturday through Sunday

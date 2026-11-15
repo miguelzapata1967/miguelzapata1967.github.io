@@ -1,0 +1,44 @@
+activity_id,user_id,contract_id,activity_type,description,performed_by,occurred_at
+ACT-001,C-20261105-001,,sign_up,New customer signed up (Other: AI Agent Developer),customer,2026-11-05T23:02:29
+ACT-002,C-20261105-001,CT-20261105-001,order,"Ordered Basic + Analysis for 1 database(s), $1,600.00",customer,2026-11-05T23:07:09
+ACT-003,P-20261105-002,,sign_up,"New customer signed up (Other: Agentic AI Developer, Creating AI tools to assist human productivity)",customer,2026-11-05T23:17:13
+ACT-004,C-20261105-001,,email_code_sent,Verification code emailed to mockeytech@gmail.com,customer,2026-11-06T07:59:26
+ACT-005,C-20261105-001,,email_code_sent,Verification code emailed to mockeytech@gmail.com,customer,2026-11-06T08:00:36
+ACT-006,C-20261105-001,,email_code_sent,Verification code emailed to mockeytech@gmail.com,customer,2026-11-06T08:03:02
+ACT-007,C-20261105-001,,email_code_sent,Verification code emailed to mockeytech@gmail.com,customer,2026-11-06T08:08:24
+ACT-008,C-20261105-001,,email_verified,Email confirmed with the code,customer,2026-11-06T08:14:11
+ACT-009,C-20261105-001,,password_reset,Password changed after the email code,customer,2026-11-06T08:15:27
+ACT-010,C-20261105-001,CT-20261106-001,order,"Ordered Basic for 1 database(s), $1,200.00",customer,2026-11-06T08:17:02
+ACT-011,C-20261105-001,,sign_in,Signed in,customer,2026-11-06T08:30:14
+ACT-012,C-20261105-001,CT-20261106-002,order,"Ordered Basic for 1 database(s), $1,200.00",customer,2026-11-06T08:31:12
+ACT-013,C-20261105-001,CT-20261106-002,checkout_started,Stripe Checkout cs_test_a1yd9BHzqZoomtMbxI30I85XHivxi9pjMrEixiEqhnNw5mwu76szpQM9ol,customer,2026-11-06T08:31:15
+ACT-014,C-20261105-001,CT-20261106-002,payment,"Paid $1,200.00 by card (Stripe pi_3UYq9fKQ0kQcKZhe0kvVGTw2)",customer,2026-11-06T08:38:25
+ACT-015,C-20261105-001,CT-20261106-002,confirmation_email,Payment confirmation emailed,customer,2026-11-06T08:38:28
+ACT-016,C-20261105-001,,databases_used,1 paid database(s) used for a new report,customer,2026-11-06T08:44:20
+ACT-017,C-20261105-001,CT-20261106-003,order,"Ordered Basic + Analysis for 1 database(s), $1,600.00",customer,2026-11-06T08:54:45
+ACT-018,C-20261105-001,CT-20261106-003,checkout_started,Stripe Checkout cs_test_b1NYiU17LWbIe6DYvuscOIzcnEbxFNZNmtKl1rBrxp9NI3sH1cyN1MZ3FL,customer,2026-11-06T08:54:46
+ACT-019,C-20261105-001,CT-20261106-003,payment,"Paid $1,600.00 by card (Stripe pi_3UYqRfKQ0kQcKZhe0kmlSD56)",customer,2026-11-06T08:57:00
+ACT-020,C-20261105-001,CT-20261106-003,confirmation_email,Payment confirmation emailed,customer,2026-11-06T08:57:04
+ACT-021,C-20261105-001,,databases_used,1 paid database(s) used for a new report,customer,2026-11-06T08:58:17
+ACT-022,C-20261106-001,,sign_up,New customer signed up (Restaurant),customer,2026-11-06T15:14:56
+ACT-023,C-20261106-001,,email_code_sent,Verification code emailed to production.elaustralconsultant@outlook.com,customer,2026-11-06T15:14:59
+ACT-024,C-20261106-001,,email_verified,Email confirmed with the code,customer,2026-11-06T15:18:07
+ACT-025,C-20261106-001,CT-20261106-004,order,"Ordered Basic + Analysis for 1 database(s), $1,600.00",customer,2026-11-06T15:19:10
+ACT-026,C-20261106-001,CT-20261106-004,checkout_started,Stripe Checkout cs_test_b1mUy9k9CuPAdkJAddlnNRay0y8xJuTBXqtrVllJk7Fq9657rQCOUOdrKL,customer,2026-11-06T15:19:12
+ACT-027,C-20261106-001,CT-20261106-004,payment,"Paid $1,600.00 by card (Stripe pi_3UYwQFKQ0kQcKZhe0srf7h7m)",customer,2026-11-06T15:19:56
+ACT-028,C-20261106-001,CT-20261106-004,confirmation_email,Payment confirmation emailed,customer,2026-11-06T15:20:01
+ACT-029,C-20261106-001,,sign_in,Signed in,customer,2026-11-06T15:27:30
+ACT-030,C-20261106-001,,databases_used,1 paid database(s) used for a new report,customer,2026-11-06T15:31:48
+ACT-031,C-20261106-001,,sign_in,Signed in,customer,2026-11-06T18:20:30
+ACT-032,C-20261106-001,,sign_in,Signed in,customer,2026-11-06T18:35:00
+ACT-033,C-20261106-001,CT-20261106-005,order,"Ordered Basic + Analysis for 1 database(s), $1,600.00",customer,2026-11-06T18:38:12
+ACT-034,C-20261106-001,CT-20261106-005,checkout_started,Stripe Checkout cs_test_b1XHSGgUBZAijBNLI9X9xYj6CcwNa6CuHiVI49qBrPN6568Aa5SVlgd0hB,customer,2026-11-06T18:38:13
+ACT-035,C-20261106-001,CT-20261106-005,payment,"Paid $1,600.00 by card (Stripe pi_3UYzWbKQ0kQcKZhe1mlW7s5Z)",customer,2026-11-06T18:38:42
+ACT-036,C-20261106-001,CT-20261106-005,confirmation_email,Payment confirmation emailed,customer,2026-11-06T18:38:45
+ACT-037,C-20261106-001,,databases_used,1 paid database(s) used for a new report,customer,2026-11-06T18:52:22
+ACT-038,C-20261106-001,,sign_in,Signed in,customer,2026-11-07T07:03:32
+ACT-039,C-20261106-001,CT-20261107-001,order,"Ordered Basic + Analysis for 1 database(s), $1,600.00",customer,2026-11-07T07:05:15
+ACT-040,C-20261106-001,CT-20261107-001,checkout_started,Stripe Checkout cs_test_b1srwEUrQ3nSA1oDdYvDpAOcSCdRVYiuRLAfJwQMwAvzSjVo2pDj2hI4u0,customer,2026-11-07T07:05:17
+ACT-041,C-20261106-001,CT-20261107-001,payment,"Paid $1,600.00 by card (Stripe pi_3UZBBZKQ0kQcKZhe1u9c3Rey)",customer,2026-11-07T07:05:46
+ACT-042,C-20261106-001,CT-20261107-001,confirmation_email,Payment confirmation emailed,customer,2026-11-07T07:05:50
+ACT-043,C-20261106-001,,databases_used,1 paid database(s) used for a new report,customer,2026-11-07T07:08:21

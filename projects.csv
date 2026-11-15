@@ -1,0 +1,9 @@
+project_id,project_name,customer_id,business_name,start_date,due_date,status,budget,hours_logged
+PRJ-001,Streamlit sign-up and licensing app,,El Austral (internal),2026-10-01,2026-12-15,in progress,0,46.5
+PRJ-002,Website refresh: services and sign-up pages,,El Austral (internal),2026-10-10,2026-10-24,in progress,0,18
+PRJ-003,Weekly report engine,,El Austral (internal),2026-09-15,2026-11-15,in progress,0,62
+PRJ-004,Bodega Andes onboarding (2 databases),C-20260920-001,Bodega Andes,2026-09-20,2026-10-04,done,2000,14
+PRJ-005,Estacion Norte onboarding (2 databases),C-20261003-001,Estacion Norte,2026-10-03,2026-10-17,review,2000,11.5
+PRJ-006,La Parrilla del Sur monthly setup,C-20260901-001,La Parrilla del Sur,2026-10-04,2026-10-11,on hold,1000,3
+PRJ-007,Retail & Revenue dashboard pilot,C-20260905-001,Mercado Central,2026-10-05,2026-10-20,in progress,900,16
+PRJ-008,Hotel Cumbre quarterly analysis (Q3),C-20260905-002,Hotel Cumbre,2026-09-15,2026-10-12,done,450,9

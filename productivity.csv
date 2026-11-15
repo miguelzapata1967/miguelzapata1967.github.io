@@ -1,0 +1,22 @@
+entry_id,work_date,project_id,task,category,hours,status
+PRD-0001,2026-10-05,PRJ-001,Design sign-up fields and ID scheme,development,3.5,done
+PRD-0002,2026-10-05,PRJ-003,Draft weekly README template,development,2.0,done
+PRD-0003,2026-10-06,PRJ-007,Clean sales file and split rejected rows,analysis,4.0,done
+PRD-0004,2026-10-06,PRJ-001,Payment gate green/yellow/red logic,development,3.0,done
+PRD-0005,2026-10-07,PRJ-005,Onboarding call and data review,support,2.5,done
+PRD-0006,2026-10-07,PRJ-003,Month-to-month trend calculations,development,4.5,done
+PRD-0007,2026-10-08,PRJ-002,Music player and menu updates,development,3.0,done
+PRD-0008,2026-10-08,PRJ-006,Follow up on pending payment,admin,1.0,blocked
+PRD-0009,2026-10-09,PRJ-007,Revenue charts by product,analysis,4.0,done
+PRD-0010,2026-10-09,PRJ-001,Refund and backup-file rules,development,2.5,done
+PRD-0011,2026-10-12,PRJ-008,Quarterly analysis write-up,analysis,3.5,done
+PRD-0012,2026-10-12,PRJ-003,Year-to-year comparison logic,development,4.0,done
+PRD-0013,2026-10-13,PRJ-005,Load branch files and validate dates,analysis,3.0,done
+PRD-0014,2026-10-13,PRJ-002,Price panel on the services page,development,2.5,done
+PRD-0015,2026-10-14,PRJ-001,Receipt and counter display,development,4.0,in progress
+PRD-0016,2026-10-14,PRJ-007,Dashboard review with client,support,1.5,done
+PRD-0017,2026-10-15,PRJ-005,Corporate summary report draft,analysis,3.5,in progress
+PRD-0018,2026-10-15,PRJ-003,Error handling for bad date columns,development,3.0,in progress
+PRD-0019,2026-10-16,PRJ-002,Admin pages and databases,development,5.0,in progress
+PRD-0020,2026-10-16,PRJ-001,Test-mode payment flow,development,2.0,blocked
+PRD-0021,2026-10-17,PRJ-002,Admin home page,development,2.5,in progress

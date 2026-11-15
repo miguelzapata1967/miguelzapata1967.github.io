@@ -1,0 +1,7 @@
+agreement_id,customer_id,business_name,agreement_type,databases,start_date,end_date,monthly_price,status
+A-20260920-001,C-20260920-001,Bodega Andes,Monthly Services,2,2026-09-20,,2000,active
+A-20261003-001,C-20261003-001,Estacion Norte,Monthly Services,2,2026-10-03,,2000,active
+A-20261004-001,C-20260901-001,La Parrilla del Sur,Monthly Services,1,2026-10-04,,1000,pending
+A-20260912-001,C-20260912-001,Pub El Condor,Monthly Services,1,2026-09-12,2026-10-02,1000,closed
+A-20260905-001,C-20260905-002,Hotel Cumbre,One-time engagement,1,2026-09-05,2026-09-15,0,completed
+A-20260905-002,C-20260905-001,Mercado Central,One-time engagement,1,2026-09-05,2026-09-08,0,completed

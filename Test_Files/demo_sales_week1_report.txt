@@ -1,0 +1,9 @@
+EL AUSTRAL CONSULTANT — WEEKLY REPORT (TEST)
+Customer: TEST-0001 · Agreement: A-TEST-0001 · Week: 2026-10-12 to 2026-10-18
+
+Rows received: 43 · Clean rows: 39 · Rows needing a fix: 4
+Total sales from clean rows: $842.03
+
+Problems found: one duplicate ticket, one price that looks too high ($999.00),
+one missing date and one missing quantity. Fix them in the bad-data file and
+append them to get the full total for the week.

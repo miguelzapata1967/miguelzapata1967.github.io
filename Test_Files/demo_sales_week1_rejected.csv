@@ -1,0 +1,5 @@
+ticket_id,date,item,qty,unit_price,total,problem
+T0010,2026-10-13,Burger,3,12.99,38.97,Duplicate of ticket T0010
+T0020,2026-10-15,Burger,3,999.00,2997.00,Unit price looks too high
+T0030,,Burger,4,12.99,51.96,Missing date
+T0035,2026-10-17,Salad,,9.49,28.47,Missing quantity

@@ -1,0 +1,2 @@
+fingerprint_id,recorded_at,environment,customer_id,agreement_id,file_role,file_name,file_size_bytes,sha256,recorded_by,notes,prev_row_hash,row_hash
+FP-000091,2026-11-08T03:19:28Z,Test,TEST-0003,Demo_Burger_Group_2026-11-07_1739.zip,zip delivered,Demo_Burger_Group_2026-11-07_1739.zip,13694416,ca416ec15781f2d1ed57e4f7d76b2c87575afcacf4ff4734669aa25281beedd4,El Austral app,,776f1d10835e2c12a40fa5115dc01389d81f4ee984f94d7d169dbeca185c2abc,fa0a411f775db350dfa97bd6597c19147c5e0f4e584eee03660910a334013fab

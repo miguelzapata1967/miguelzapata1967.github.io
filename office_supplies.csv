@@ -1,0 +1,12 @@
+supply_id,item,category,qty_on_hand,reorder_level,unit_cost,supplier,last_ordered,active
+SUP-001,Printer paper (ream),paper,6,5,7.5,Office supply store,2026-09-18,TRUE
+SUP-002,Printer toner (black),printing,1,2,58,Office supply store,2026-08-30,TRUE
+SUP-003,Ballpoint pens (box),writing,3,2,6.25,Office supply store,2026-09-18,TRUE
+SUP-004,Notebooks,writing,8,4,3.5,Office supply store,2026-09-18,TRUE
+SUP-005,Sticky notes (pack),writing,2,3,4.8,Office supply store,2026-07-22,TRUE
+SUP-006,Envelopes (box of 100),mailing,1,1,9.9,Office supply store,2026-06-10,TRUE
+SUP-007,USB flash drives 64 GB,tech,4,2,8.75,Online electronics store,2026-09-25,TRUE
+SUP-008,HDMI cable,tech,2,1,11,Online electronics store,2026-05-14,TRUE
+SUP-009,Whiteboard markers (set),writing,0,2,7.2,Office supply store,2026-07-22,TRUE
+SUP-010,Coffee (bag),kitchen,2,2,12.5,Local grocery,2026-10-13,TRUE
+SUP-011,Fax paper rolls,paper,0,0,5,Office supply store,2025-11-02,FALSE

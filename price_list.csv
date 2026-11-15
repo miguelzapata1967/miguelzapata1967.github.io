@@ -1,0 +1,16 @@
+price_id,service_key,service_name,item_key,item_name,includes,pricing_type,unit_price,term,min_qty,max_qty,volume_from,discount_pct,effective_date,active,notes
+PRC-001,retail,Retail & Revenue Analytics,basic,Basic,"Clean file, bad-data file and written report.",per_database,220,one-time,,,,,2026-10-18,Yes,
+PRC-002,retail,Retail & Revenue Analytics,full,Report + Full Analysis,"Basic, plus the full set of calculations.",per_database,350,one-time,,,,,2026-10-18,Yes,
+PRC-003,retail,Retail & Revenue Analytics,mom,Month to Month,"Basic, plus monthly trend comparison.",per_database,450,one-time,,,,,2026-10-18,Yes,
+PRC-004,retail,Retail & Revenue Analytics,yoy,Year to Year,"Basic, plus yearly trend comparison.",per_database,450,one-time,,,,,2026-10-18,Yes,
+PRC-005,retail,Retail & Revenue Analytics,quarterly,Quarterly,"Basic, plus a comparison for the quarter you choose.",per_database,450,one-time,,,,,2026-10-18,Yes,
+PRC-006,retail,Retail & Revenue Analytics,monthly,Monthly Services,"All of the above, plus 4 weekly reports. For single-location businesses.",per_database,1200,per month per database,,1,,,2026-10-18,Yes,
+PRC-007,engineering,Data Engineering & Preparation,pipelines,Monthly Services + Pipelines,"Everything in Monthly Services, plus automated pipelines that connect all your locations to one live dashboard at your main office.",per_database,1800,per month per database,2,,,,2026-10-18,Yes,Standard updates are hourly. Near real-time updates cost extra and are quoted separately.
+PRC-008,forecasting,Forecasting & Demand Planning,forecast,Forecast,Custom forecast prepared for each database.,volume,450,"each, one-time",1,,6,20,2026-10-18,Yes,"Ordering 6 or more databases takes 20% off the regular $450 price, so every database in the order costs $360."
+PRC-009,abtesting,A/B Testing & Experimentation,abtest,One-month A/B test,"Full monthly service for each location in the test (weekly reports), plus a separate A/B testing report after the fourth week covering the full 30 days.",per_database,1200,per location for the test month,1,3,,,2026-10-18,Yes,
+PRC-010,workforce,Workforce & Diversity Analytics,wf_100,"Workforce analysis, 1 to 100 employees",One price for the whole organization.,employee_tier,1500,per analysis,1,100,,,2026-10-18,Yes,Headcount is counted on the date your data is submitted.
+PRC-011,workforce,Workforce & Diversity Analytics,wf_200,"Workforce analysis, 101 to 200 employees",One price for the whole organization.,employee_tier,2500,per analysis,101,200,,,2026-10-18,Yes,Headcount is counted on the date your data is submitted.
+PRC-012,workforce,Workforce & Diversity Analytics,wf_extra,Each additional 100 employees above 200,"Added to the 101 to 200 price, rounded up to the next hundred.",employee_extra,1000,per 100 employees,201,,,,2026-10-18,Yes,
+PRC-013,analytics,Data Analytics,quote,Data Analytics,Priced by quote.,quote,,,,,,,2026-10-18,Yes,
+PRC-014,bi,Business Intelligence & Dashboards,quote,Business Intelligence & Dashboards,Priced by quote.,quote,,,,,,,2026-10-18,Yes,
+PRC-015,security,Security & Risk Analytics,quote,Security & Risk Analytics,Priced by quote.,quote,,,,,,,2026-10-18,Yes,

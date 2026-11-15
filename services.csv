@@ -1,0 +1,7 @@
+service_id,service_name,service_description,base_price,active
+SVC-001,Basic Service,"Clean-up file, rejected-data file, and a README report explaining the findings.",220,TRUE
+SVC-002,Report + Full Analysis,"Clean-up file, rejected-data file, README report, and a full analysis.",350,TRUE
+SVC-003,Month to Month Analysis,"Clean-up file, rejected-data file, README report, and a full month-to-month analysis.",450,TRUE
+SVC-004,Year to Year Analysis,"Clean-up file, rejected-data file, README report, and a full year-to-year analysis.",450,TRUE
+SVC-005,Quarterly Analysis,"Clean-up file, rejected-data file, README report, and a full analysis of the quarter the client chooses (Q1, Q2, Q3 or Q4).",450,TRUE
+SVC-006,Monthly Services,"Per database, per month: clean-up and rejected-data files, 4 weekly README reports, plus Full Analysis, Month to Month and Year to Year. Includes a combined summary across a client's databases.",1000,TRUE

@@ -1,0 +1,2 @@
+fingerprint_id,recorded_at,environment,customer_id,agreement_id,file_role,file_name,file_size_bytes,sha256,recorded_by,notes,prev_row_hash,row_hash
+FP-000057,2026-11-06T00:08:49Z,Test,TEST-0002,TEST-0002-basic-20261105160846-db1,original,original_taqueria_3_years_messy.csv,27332918,cf60b93e976e355ce78e00e48b17f2a25f7524dd1259c4e93929427a133f1f5e,El Austral app,"customer upload, unchanged",8c0b419eda627a71dcfb92220aaab0376db3dcf6dff4e0dbc41a864122e9d5a9,e326c6bf9ede9171405f3ce1fa6760cf9f0c58b0f80643264ec2d32aa0a00efb
