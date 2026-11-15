@@ -1,2 +1,0 @@
-fingerprint_id,recorded_at,environment,customer_id,agreement_id,file_role,file_name,file_size_bytes,sha256,recorded_by,notes,prev_row_hash,row_hash
-FP-000062,2026-11-06T01:15:11Z,Test,TEST-0001,Demo_Taqueria_2026-11-05_1659.zip,zip delivered,Demo_Taqueria_2026-11-05_1659.zip,13337709,82a2f05e47496f4421aa0984315d698bb443cad50f83eecdf3bc5fceb6518dd2,El Austral app,,306e97b4e5b85927a14eea652991808cc7a430d96981dc8187d675090195af92,49798994d3ea5c6ea9f6d1e76d252220e1a366617c4f8ef2d0398a3d2443f1c2
