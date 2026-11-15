@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Data analytics, engineering, forecasting, and business intelligence services from El Austral Consultant.">
     <title>Services | El Austral Consultant</title>
-    <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="stylesheet" href="Styles/style.css">
     <style>
       /* Scoped to the Services content only. No header, body, or site-wide colors modified. */
       .service-content,.service-gallery {max-width:1100px;margin:0 auto;padding:2rem 1.25rem;text-align:center;}
@@ -44,43 +47,30 @@
       /* Sign Up link in the main menu */
       .main-nav a.nav-signup {padding:8px 18px;border:2px solid var(--burgundy);border-radius:999px;color:var(--burgundy);}
       .main-nav a.nav-signup:hover {background:var(--burgundy);color:#fff;}
-          /* sample report pages */
-      .sample-title {margin-top:2rem;}
-      .sample-note {max-width:760px;margin:0 auto 1rem;}
-      .sample-pages {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.4rem;margin-top:1rem;}
-      .sample-pages a {display:block;text-decoration:none;color:inherit;text-align:center;}
-      .sample-pages img {display:block;width:100%;height:auto;border:1px solid #d9c5c9;border-radius:4px;
-          box-shadow:0 4px 14px rgba(60,10,25,.15);transition:transform .2s;}
-      .sample-pages a:hover img {transform:translateY(-4px);}
-      .sample-pages span {display:block;margin-top:.55rem;font-size:.95rem;}
-      .sample-link {text-align:center;margin:1.6rem 0 2.2rem;}
-      @media(max-width:900px) {.sample-pages {grid-template-columns:repeat(2,minmax(0,1fr));}}
-      @media(max-width:520px) {.sample-pages {grid-template-columns:1fr;}}
-</style>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../Styles/austral-theme.css">
-    <script src="../Scripts/app-link.js"></script>
+    </style>
 </head>
 
-<body class="ea-inner">
+<body>
 
-<header class="ea-header">
-    <a class="ea-logo" href="../index.html" aria-label="El Austral Consultant home"><svg viewBox="0 0 200 80" aria-hidden="true"><path fill="currentColor" d="M0 78 L36 54 L50 60 L78 33 L92 45 L113 6 L139 40 L151 31 L178 57 L200 78 Z"/><path class="snow" d="M113 6 L106 25 M113 6 L121 22 M78 33 L73 45 M151 31 L146 43"/></svg><span class="ea-logo-bar"></span><span class="ea-logo-text"><span class="ea-logo-name">El Austral</span><span class="ea-logo-sub">CONSULTANT</span></span></a>
-    <button class="ea-menu-btn" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
-    <nav class="ea-nav" aria-label="Main navigation">
-        <a href="../index.html">Home</a>
-        <div class="ea-drop active">
-            <button type="button" aria-haspopup="true" aria-expanded="false">Our Solutions<span class="ea-caret"></span></button>
-            <div class="ea-drop-menu"><a href="services.html#analytics">Data Analytics</a><a href="services.html#intelligence">Business Intelligence &amp; Dashboards</a><a href="services.html#engineering">Data Engineering &amp; Preparation</a><a href="services.html#forecasting">Forecasting &amp; Demand Planning</a><a href="services.html#a%2Fb">A/B Testing &amp; Experimentation</a><a href="services.html#retail">Retail &amp; Revenue Analytics</a><a href="services.html#workforce">Workforce &amp; Diversity Analytics</a><a href="services.html#security">Security &amp; Risk Analytics</a><a class="all" href="services.html">See all services &amp; prices →</a></div>
-        </div>
+<!-- STANDARD WEBSITE HEADER -->
+<header class="site-header">
+    <a class="logo" href="index.html" aria-label="El Austral Consultant Home">
+        <svg viewBox="0 0 210 57" role="img" aria-label="Aconcagua mountain logo">
+            <path d="M8 47 L47 30 L63 35 L102 5 L130 31 L143 24 L176 43 L201 48 M47 30 L56 39 L70 31 M102 5 L110 25 L119 21 L130 31" fill="none" stroke="#78182e" stroke-width="4" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo-name">EL AUSTRAL</span>
+        <span class="logo-subtitle">CONSULTANT</span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html" class="active" aria-current="page">Services</a>
         <a href="about.html">About Us</a>
-        <a href="contact.html">Contact Us</a>
-        
-        <a class="ea-signup" href="#" data-app="signup">Sign Up / Log In</a>
+        <a href="contact_us.html">Contact Us</a>
+        <a href="testimonials.html">Testimonials</a>
     </nav>
-    <div class="ea-tools">
-        <div class="ea-lang" aria-label="Language"><span class="selected">English</span><span class="unavailable" title="Spanish website coming soon">Español</span></div>
-        <span class="ea-copy">&copy; MMXXVI</span>
+    <div class="language-switch" aria-label="Language">
+        <span class="selected">EN</span>
+        <span class="unavailable" title="Spanish website coming soon">ES</span>
     </div>
 </header>
 
@@ -107,52 +97,28 @@
     <section class="service-gallery" aria-labelledby="gallery-title">
       <h2 id="gallery-title">Examples of Our Analytical Work</h2>
       <p>Visual examples from completed analysis projects.</p>
-
-      <!-- Sample report: pages of a real El Austral report, made with TEST data (a made-up taqueria) -->
-      <h3 class="sample-title">What you receive: a sample report</h3>
-      <p class="sample-note">These pages come from a full El Austral Consultant clean-up and analysis report, made
-         with <b>test data</b> from a sample restaurant (not a real customer). Your report shows your own numbers,
-         each year on its own, month by month, explained in plain English. Click a page to see it larger.</p>
-      <div class="sample-pages">
-        <a href="../Samples/sample-report-page-1.jpg" target="_blank"><img src="../Samples/sample-report-page-1.jpg" alt="Sample report: cover and data quality" loading="lazy"><span>Data quality: what was found and fixed</span></a>
-        <a href="../Samples/sample-report-page-2.jpg" target="_blank"><img src="../Samples/sample-report-page-2.jpg" alt="Sample report: when customers buy, by day of the week" loading="lazy"><span>When customers buy: best days, year by year</span></a>
-        <a href="../Samples/sample-report-page-3.jpg" target="_blank"><img src="../Samples/sample-report-page-3.jpg" alt="Sample report: monthly table for one year" loading="lazy"><span>Each month: up or down, since last December</span></a>
-        <a href="../Samples/sample-report-page-4.jpg" target="_blank"><img src="../Samples/sample-report-page-4.jpg" alt="Sample report: sales by category" loading="lazy"><span>Sales by category, by year</span></a>
-        <a href="../Samples/sample-report-page-5.jpg" target="_blank"><img src="../Samples/sample-report-page-5.jpg" alt="Sample report: discounts and the cost rule" loading="lazy"><span>Discounts that sold below cost, with dates</span></a>
-        <a href="../Samples/sample-report-page-6.jpg" target="_blank"><img src="../Samples/sample-report-page-6.jpg" alt="Sample report: profit by year and month" loading="lazy"><span>Profit by year and month</span></a>
-      </div>
-      <p class="sample-link"><a class="service-btn primary" href="../Samples/El_Austral_Sample_Report.pdf" target="_blank">See the full sample report (PDF)</a></p>
       <div class="service-graphs">
-        <figure class="service-graph"><img src="../Graph/workforce_representation.png" alt="Monthly Retail Sales Revenue" loading="lazy"><figcaption><strong>Monthly Retail Sales Revenue</strong> — Monthly retail sales revenue, January through April 2023.</figcaption></figure>
-        <figure class="service-graph"><img src="../Graph/department_representation.png" alt="Department Representation" loading="lazy"><figcaption><strong>Department Representation</strong> — Workforce representation across departments.</figcaption></figure>
-        <figure class="service-graph"><img src="../Graph/leadership_representation.png" alt="Leadership Representation" loading="lazy"><figcaption><strong>Leadership Representation</strong> — Representation by manager status.</figcaption></figure>
-        <figure class="service-graph"><img src="../Graph/experience_distribution.png" alt="Experience Distribution" loading="lazy"><figcaption><strong>Experience Distribution</strong> — Employee years-of-experience distribution.</figcaption></figure>
+        <figure class="service-graph"><img src="Graph/workforce_representation.png" alt="Monthly Retail Sales Revenue" loading="lazy"><figcaption><strong>Monthly Retail Sales Revenue</strong> — Monthly retail sales revenue, January through April 2023.</figcaption></figure>
+        <figure class="service-graph"><img src="Graph/department_representation.png" alt="Department Representation" loading="lazy"><figcaption><strong>Department Representation</strong> — Workforce representation across departments.</figcaption></figure>
+        <figure class="service-graph"><img src="Graph/leadership_representation.png" alt="Leadership Representation" loading="lazy"><figcaption><strong>Leadership Representation</strong> — Representation by manager status.</figcaption></figure>
+        <figure class="service-graph"><img src="Graph/experience_distribution.png" alt="Experience Distribution" loading="lazy"><figcaption><strong>Experience Distribution</strong> — Employee years-of-experience distribution.</figcaption></figure>
       </div>
     </section>
 </main>
 
-<footer class="ea-footer">
-    <a class="ea-logo" href="../index.html" aria-label="El Austral Consultant home"><svg viewBox="0 0 200 80" aria-hidden="true"><path fill="currentColor" d="M0 78 L36 54 L50 60 L78 33 L92 45 L113 6 L139 40 L151 31 L178 57 L200 78 Z"/><path class="snow" d="M113 6 L106 25 M113 6 L121 22 M78 33 L73 45 M151 31 L146 43"/></svg><span class="ea-logo-bar"></span><span class="ea-logo-text"><span class="ea-logo-name">El Austral</span><span class="ea-logo-sub">CONSULTANT</span></span></a>
-    <p class="ea-tagline">Reading What the Data Really Has to Say<span class="ea-founder">Miguel A. Zapata, Founder</span></p>
-    <div class="ea-foot-right">
-        <span class="ea-foot-lang"><span>English</span><span title="Spanish website coming soon">Español</span></span>
-        <span class="ea-social">
-            <!-- Paste your LinkedIn and YouTube page addresses into the two href="" values below -->
-            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.3 0-2.9-1.8-2.9s-2.1 1.4-2.1 2.8V21h-4z"/></svg></a>
-            <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.8 15.1V8.9l5.7 3.1z"/></svg></a>
-        </span>
-        <span>&copy; MMXXVI</span>
-    </div>
+<footer>
+    <h3>Insights for a Higher Tomorrow</h3>
+    <p>Miguel Zapata, Founder</p>
+    <p>&copy; MMXXVI — El Austral Consultant. All rights reserved.</p>
 </footer>
 
 <script>
   (() => {
     // ---------------------------------------------------------------
     // SERVICE DESCRIPTIONS — no prices on this page.
-    // Prices live only in Scripts/price-list.js and appear in the
-    // order summary on the sign-up page.
+    // Standby demo version: no Order buttons.
     // ---------------------------------------------------------------
-    const SIGNUP_URL = (window.EA_APP_URL || 'http://localhost:8501').replace(/\/$/, '') + '/';
+    const SIGNUP_URL = 'signup.html';
 
     const services = [
       {
@@ -352,7 +318,7 @@
     }
     function actionButton(service) {
       const a = el('a', 'Order', 'service-btn primary');
-      a.href = SIGNUP_URL + '?page=signup&service=' + encodeURIComponent(service.key);
+      a.href = SIGNUP_URL + '?service=' + encodeURIComponent(service.key);
       return a;
     }
 
@@ -402,7 +368,7 @@
         body.appendChild(req);
       }
       const actions = el('div', '', 'service-actions');
-      actions.appendChild(actionButton(s));
+      // Standby demo: Order button hidden until the full system is live
       if (s.besideOrder) actions.appendChild(el('span', s.besideOrder, 'beside-order'));
       body.appendChild(actions);
     }
@@ -416,57 +382,6 @@
     renderService();
   })();
 </script>
-<script src="../Scripts/music-player.js" defer></script>
-<!-- Tico voice assistant -->
-<script>
-  var vapiInstance = null;
-  const assistant = "981dc76e-8837-4d6c-83e9-f8f69f33641b";
-  const apiKey = "5dbcddbe-ddb3-4d6d-a0a1-9525419cd269";
-  const buttonConfig = {
-    position: "bottom-left",
-    offset: "30px",
-    width: "60px",
-    height: "60px",
-    idle: {
-      color: "#78182e",
-      type: "pill",
-      title: "Talk to Tico",
-      subtitle: "Available 24/7",
-      icon: "https://unpkg.com/lucide-static@latest/icons/infinity.svg",
-    },
-    loading: {
-      color: "#aa2d48",
-      type: "pill",
-      title: "Connecting...",
-      subtitle: "One moment",
-      icon: "https://unpkg.com/lucide-static@latest/icons/loader.svg",
-    },
-    active: {
-      color: "#4c0518",
-      type: "pill",
-      title: "Talking with Tico",
-      subtitle: "Click to end the call",
-      icon: "https://unpkg.com/lucide-static@latest/icons/phone-off.svg",
-    },
-  };
-
-  (function (d, t) {
-    var g = document.createElement(t),
-        s = d.getElementsByTagName(t)[0];
-    g.src = "https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js";
-    g.defer = true;
-    g.async = true;
-    s.parentNode.insertBefore(g, s);
-    g.onload = function () {
-      vapiInstance = window.vapiSDK.run({
-        apiKey: apiKey,
-        assistant: assistant,
-        config: buttonConfig,
-      });
-    };
-  })(document, "script");
-</script>
-
-<script src="../Scripts/austral-theme.js" defer></script>
+<script src="Scripts/music-player.js" defer></script>
 </body>
 </html>
