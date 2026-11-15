@@ -1,0 +1,15 @@
+// Single source of truth for website prices. Edit here; Services and Sign Up both read it.
+window.RETAIL_PRICES = [
+  {id: 'basic', name: 'Basic Service', price: 220, term: 'one time',
+   includes: 'Clean-up file, rejected-data file, and a README report explaining the findings.'},
+  {id: 'full', name: 'Report + Full Analysis', price: 350, term: 'one time',
+   includes: 'Clean-up file, rejected-data file, README report, and a full analysis.'},
+  {id: 'mtm', name: 'Month to Month Analysis', price: 450, term: 'one time',
+   includes: 'Clean-up file, rejected-data file, README report, and a full month-to-month analysis.'},
+  {id: 'yty', name: 'Year to Year Analysis', price: 450, term: 'one time',
+   includes: 'Clean-up file, rejected-data file, README report, and a full year-to-year analysis.'},
+  {id: 'qtr', name: 'Quarterly Analysis', price: 450, term: 'one time',
+   includes: 'Clean-up file, rejected-data file, README report, and a full analysis of the quarter you choose (Q1, Q2, Q3 or Q4).'},
+  {id: 'monthly', name: 'Monthly Services', price: 1000, term: 'per month, per database', monthly: true,
+   includes: 'Clean-up file, rejected-data file, and 4 weekly README reports (one per week), plus a Full Analysis, Month to Month and Year to Year each month. Includes a combined summary across all of a client’s databases.'}
+];
