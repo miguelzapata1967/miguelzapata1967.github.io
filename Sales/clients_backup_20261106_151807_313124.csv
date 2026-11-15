@@ -1,8 +1,0 @@
-user_id,company_name,poc_name,poc_email_address,poc_phone_number,address_street_name,address_number,address_zip,database_qty,creation_date,referred_by,referral_id,week_type,report_day,business_type,location_qty,clerk_hours,clerk_rate,plan,status,keep_cleaned_data,marketing_opt_in,email_verified
-TEST-0001,Demo Taqueria,Ana Lopez,demo.taqueria@example.com,(408) 555-0101,Main St,120,95112,1,2026-10-31,,,Mon-Sun,,,,,,,,,,
-TEST-0002,Demo Coffee House,Ben Ortiz,demo.coffee@example.com,(408) 555-0102,Santa Clara St,45,95113,1,2026-10-31,,,Mon-Sun,,,,,,,,,,
-TEST-0003,Demo Burger Group,Carla Ruiz,demo.burgers@example.com,(408) 555-0103,Alum Rock Ave,880,95116,3,2026-10-31,Demo Taqueria,TEST-0001,Sun-Sat,,,,,,,,,,
-TEST-0004,Demo Pub El Condor,Diego Vera,demo.pub@example.com,(408) 555-0104,First St,300,95110,1,2026-10-31,,,Mon-Sun,,,,,,,,,,
-C-20261105-001,MockeyTech Agentic AI Developer,Miguel Zapata,mockeytech@gmail.com,669-235-8990,Fronda Dr,3266,95148,1,2026-11-05,,,Mon-Sun,,Other: AI Agent Developer,1,40,35.00,analysis,customer,Yes,Yes,Yes
-P-20261105-002,MockeyTech Agentic AI Developer,Miguel Zapata,elaustralconsultant@gmail.com,669-235-8990,Fronda Dr,3266,95148,,2026-11-05,,,,,"Other: Agentic AI Developer, Creating AI tools to assist human productivity",1,40,35.00,,pre-customer,,Yes,
-P-20261106-001,El Cortito,Dick Tracey,production.elaustralconsultant@outlook.com,6692358990,Fronda,3266,95148,,2026-11-06,'@Elaustralconsultant20260101,'@Elaustralconsultant20260101,,,Restaurant,1,40,35.00,,pre-customer,,Yes,No

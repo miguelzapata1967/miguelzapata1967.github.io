@@ -1,8 +1,0 @@
-database_id,user_id,database_name,database_type,access_method,data_classification,status,created_at,contract_id,plan,report_id,used_at
-DB-001,C-20261105-001,El Tortolito,CSV or Excel file,Upload,Confidential,pending,2026-11-05T23:07:09,,,,
-DB-002,C-20261105-001,Los Tortolitos,CSV or Excel file,Upload,Confidential,pending,2026-11-06T08:17:02,CT-20261106-001,basic,,
-DB-003,C-20261105-001,El Tortolito Cuisine,CSV or Excel file,Upload,Confidential,used,2026-11-06T08:31:12,CT-20261106-002,basic,C-20261105-001-basic-20261106084420-db1,2026-11-06T08:44:20
-DB-004,C-20261105-001,Los Tortolitos II,CSV or Excel file,Upload,Confidential,used,2026-11-06T08:54:45,CT-20261106-003,analysis,C-20261105-001-analysis-20261106085815-db1,2026-11-06T08:58:17
-DB-005,C-20261106-001,El Cortito,CSV or Excel file,Upload,Confidential,used,2026-11-06T15:19:10,CT-20261106-004,analysis,C-20261106-001-analysis-20261106153145-db1,2026-11-06T15:31:48
-DB-006,C-20261106-001,La Patagonia Grande,CSV or Excel file,Upload,Confidential,used,2026-11-06T18:38:12,CT-20261106-005,analysis,C-20261106-001-analysis-20261106185219-db1,2026-11-06T18:52:21
-DB-007,C-20261106-001,El Cortito II,CSV or Excel file,Upload,Confidential,used,2026-11-07T07:05:15,CT-20261107-001,analysis,C-20261106-001-analysis-20261107070817-db1,2026-11-07T07:08:21
